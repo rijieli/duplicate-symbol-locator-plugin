@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
+    <title>Duplicate Symbol Locator</title>
+    <description>Locate duplicate symbols.</description>
+    <language>en</language>
     <item>
-      <enclosure url="https://github.com/rijieli/duplicate-symbol-locator-plugin/releases/download/v0.1.0/duplicate-symbol-locator.sketchplugin.zip" sparkle:version="0.1.0"/>
+      <enclosure url="https://github.com/rijieli/duplicate-symbol-locator-plugin/releases/download/v0.1.0/duplicate-symbol-locator.sketchplugin.zip" sparkle:version="0.1.0" />
     </item>
   </channel>
 </rss>
