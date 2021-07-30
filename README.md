@@ -1,6 +1,6 @@
 # Duplicate Symbols Locator
 
-![Symbol Instance Locator](https://raw.githubusercontent.com/rijieli/duplicate-symbol-locator-plugin/main/assets/Preview.jpg)
+![Symbol Instance Locator](https://github.com/rijieli/duplicate-symbol-locator-plugin/raw/main/assets/Preveiw.jpg)
 
 Sketch plugin to locate duplicate symbols.
 
