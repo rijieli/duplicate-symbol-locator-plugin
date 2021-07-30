@@ -1,5 +1,6 @@
 # build artifacts
 duplicate-symbol-locator.sketchplugin
+duplicate-symbol-locator.sketchplugin.zip
 
 # npm
 node_modules
@@ -8,6 +9,7 @@ npm-debug.log
 
 # mac
 .DS_Store
+assets/.DS_Store
 
 # WebStorm
 .idea
