@@ -1,0 +1,32 @@
+{
+  "name": "Duplicate Symbol Locator",
+  "author": "Roger Lee",
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Locate duplicate symbols",
+      "identifier": "duplicate-symbol-locator-plugin.find",
+      "shortcut" : "cmd option shift f",
+      "script": "./scripts.js"
+    }, {
+      "name" : "Feedback",
+      "identifier" : "duplicate-symbol-locator-plugin.feedback",
+      "description" : "Feedback at GitHub issue page",
+      "script" : "./scripts.js",
+      "handler" : "doFeedback"
+    }
+  ],
+  "menu": {
+    "title": "Duplicate Symbols",
+    "items": [
+      "duplicate-symbol-locator-plugin.find",
+      "-",
+      "duplicate-symbol-locator-plugin.feedback"
+    ]
+  },
+  "version": "0.1.0",
+  "authorEmail": "rijie.li@outlook.com",
+  "identifier": "com.lirijie.sketch.locator",
+  "description": "Sketch plugin to locate duplicate symbols."
+}
